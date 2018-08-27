@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jamm Studios - Ask Us Anything - Question Database</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </head>  
+  <body>
+      <div class="container-fluid header">
+        <a target="_blank" href="http://www.jammstudios.co.uk">
+					<img src="https://s8.postimg.cc/3o1sv0k3p/Jamm_logo_500x500.png" alt="Jamm Studios" class="img-fluid header-img">
+				</a>
+      </div>
+      <div class="container-fluid search">
+				<h3 class="search-title">ASK US ANYTHING</h3>
+				<h4 class="search-title search-subtitle">QUESTION DATABASE</h4>
+        <input type="text" placeholder="Search" class="search-input"></input>
+				<div class='search-fields'>
+        	<select class="search-dropdown" id="month" value="month">
+          <option value="">Month</option>
+          <option value="2017-08">August 2017</option>
+          <option value="2017-09">September 2017</option>
+          <option value="2017-10">October 2017</option>
+          <option value="2017-11">November 2017</option>
+          <option value="2017-12">December 2017</option>
+          <option value="2018-01">January 2018</option>
+          <option value="2018-02">February 2018</option>
+          <option value="2018-03">March 2018</option>
+          <option value="2018-04">April 2018</option>
+          <option value="2018-05">May 2018</option>
+          <option value="2018-06">June 2018</option>
+          <option value="2018-07">July 2018</option>
+        </select>
+      		<select class="search-dropdown" id="tag">
+        <option value="">Tag</option>
+        <option value="guitar">#guitar</option>
+        <option value="bass">#bass</option>
+        <option value="piano">#piano</option>
+        <option value="drums">#drums</option>
+        <option value="vocals">#vocals</option>
+        <option value="studio">#studio</option>
+        <option value="lessons">#lessons</option>
+        <option value="industry">#industry</option>
+        <option value="live">#live</option>
+      </select>
+					<button class="search-button" id="random">Random</button>
+					<button class="search-button" id="all">All</button>
+				</div>
+      	<a href="#answers"><button type="submit" id="submit" class="search-button search-submit">Search</button></a>
+      </div>
+      <div class="container-fluid answers" id="answers">
+    		<div id="questions">
+				</div>
+    	</div>
+			<div class="container-fluid footer">
+				<p><span class="mail"><a href="mailto:info@jammstudios.co.uk">info@jammstudios.co.uk</a></span><span class="copyright">&copy; <a href="http://jammstudios.co.uk" target="_blank">Jamm Studios</a> 2018</span><span class="phone">01744 734 465</span></p>
+			</div>
+  </body>
+</html>
